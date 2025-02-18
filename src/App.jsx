@@ -8,12 +8,12 @@ import './App.css';
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/a-to-do-list-app/",
       element: <RootLayout />,
       children: [
-        { path: "/", element: <HomePage /> },
-        { path: "/completed", element: <CompletedPage /> },
-        { path: "/pending", element: <PendingPage /> },
+        { path: "/a-to-do-list-app/", element: <HomePage /> },
+        { path: "/a-to-do-list-app/completed", element: <CompletedPage /> },
+        { path: "/a-to-do-list-app/pending", element: <PendingPage /> },
       ],
     },
   ]);
