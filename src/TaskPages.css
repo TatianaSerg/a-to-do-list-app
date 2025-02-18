@@ -1,0 +1,33 @@
+.taskPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.taskPage h1 {
+    color: #333;
+}
+
+.taskPage p {
+    color: #555;
+}
+
+.taskPage ul {
+    list-style-type: circle;
+    padding: 0;
+}
+
+.taskPage li {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.taskPage img {
+    margin-top: 20px;
+    max-width: 150px;
+    border-radius: 5px;
+}

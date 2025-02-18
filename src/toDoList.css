@@ -1,0 +1,123 @@
+.todoContainer {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+.inputContainer div {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputContainer {
+    margin-bottom: 20px;
+}
+
+.inputContainer select,
+.inputContainer input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 360px;
+    border-radius: 5px;
+    background-color: #f5f3f3;
+}
+
+.inputContainer input {
+    width: 337px;
+}
+
+.inputContainer button {
+    padding: 10px;
+    cursor: pointer;
+    width: 110px;
+    background-color: rgb(241, 187, 229);
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.inputContainer button:hover {
+    background-color: rgb(241, 147, 221);
+}
+
+
+.taskList {
+    padding: 0;
+    display: block;
+}
+
+.taskWrapper1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.taskWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+
+.taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.taskList li.completed span {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.taskList button {
+    border: none;
+    color: rgb(31, 30, 30);
+    cursor: pointer;
+    border: solid rgb(66, 66, 66) 1px;
+    padding: 5px 7px;
+    border-radius: 4px;
+    margin-left: 1rem;
+    width: 70px;
+}
+
+.saveButton {
+    background-color: rgb(241, 187, 229);
+}
+
+.saveButton:hover {
+    background-color: rgb(241, 147, 221);
+}
+
+.cancelButton {
+    background-color: rgb(149, 230, 149);
+}
+
+.cancelButton:hover {
+    background-color: rgb(90, 228, 90);
+}
+
+.editButton {
+    background-color: rgb(139, 212, 243);
+}
+
+.editButton:hover {
+    background-color: rgb(86, 201, 250);
+}
+
+
+.removeButton {
+    background-color: rgb(149, 230, 149);
+}
+
+.removeButton:hover {
+    background-color: rgb(90, 228, 90);
+}
