@@ -16,7 +16,9 @@ function App() {
         { path: "/pending", element: <PendingPage /> },
       ],
     },
-  ]);
+  ], {
+    basename: "/a-to-do-list-app/new-branch-a-new-to-do-list-appl"
+  });
 
   return <RouterProvider router={router} />;
 }
